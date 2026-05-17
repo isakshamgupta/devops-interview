@@ -1,6 +1,6 @@
 # Interview Questions Collection
 
-A structured collection of **DevOps / SRE** interview questions from **25 companies**, organized both by **company** and by **topic** for easy revision.
+A structured collection of **DevOps / SRE** interview questions from **26 companies**, organized both by **company** and by **topic** for easy revision.
 
 ---
 
@@ -14,6 +14,7 @@ InterviewQuestions/
 │   ├── Allvue.md
 │   ├── Apptware.md
 │   ├── CCTech.md
+│   ├── Cognizant.md
 │   ├── Entain.md
 │   ├── Equifax.md
 │   ├── Fiserv.md
@@ -30,12 +31,11 @@ InterviewQuestions/
 │   ├── Persistent.md
 │   ├── PivotChain.md
 │   ├── RakutenSymphony.md
+│   ├── Scienaptic-AI.md
 │   ├── Securonix.md
 │   ├── Spryc.md
 │   ├── T-Systems.md
 │   ├── Volkswagen.md
-│   └── SRE/
-│       └── Questions.md
 └── Topics-Wise-Questions/        # Questions grouped by topic
     ├── Kubernetes.md
     ├── AWS.md
@@ -82,14 +82,14 @@ InterviewQuestions/
 
 | # | Company | Questions | Source File |
 |---|---------|-----------|-------------|
-| 1 | SRE (General) | 49 | [SRE/Questions.md](Company-Wise-Questions/SRE/Questions.md) |
-| 2 | LTIMindtree | 46 | [LTIMindtree.md](Company-Wise-Questions/LTIMindtree.md) |
-| 3 | InfracloudTech | 38 | [InfracloudTech.md](Company-Wise-Questions/InfracloudTech.md) |
-| 4 | Apptware | 31 | [Apptware.md](Company-Wise-Questions/Apptware.md) |
-| 5 | T-Systems | 30 | [T-Systems.md](Company-Wise-Questions/T-Systems.md) |
-| 6 | AlignedAutomation | 27 | [AlignedAutomation.md](Company-Wise-Questions/AlignedAutomation.md) |
-| 7 | Fortinet | 26 | [Fortinet.md](Company-Wise-Questions/Fortinet.md) |
-| 8 | PivotChain | 23 | [PivotChain.md](Company-Wise-Questions/PivotChain.md) |
+| 1 | LTIMindtree | 46 | [LTIMindtree.md](Company-Wise-Questions/LTIMindtree.md) |
+| 2 | InfracloudTech | 38 | [InfracloudTech.md](Company-Wise-Questions/InfracloudTech.md) |
+| 3 | Apptware | 31 | [Apptware.md](Company-Wise-Questions/Apptware.md) |
+| 4 | T-Systems | 30 | [T-Systems.md](Company-Wise-Questions/T-Systems.md) |
+| 5 | AlignedAutomation | 27 | [AlignedAutomation.md](Company-Wise-Questions/AlignedAutomation.md) |
+| 6 | Fortinet | 26 | [Fortinet.md](Company-Wise-Questions/Fortinet.md) |
+| 7 | PivotChain | 23 | [PivotChain.md](Company-Wise-Questions/PivotChain.md) |
+| 8 | Cognizant | 24 | [Cognizant.md](Company-Wise-Questions/Cognizant.md) |
 | 9 | Equifax | 18 | [Equifax.md](Company-Wise-Questions/Equifax.md) |
 | 10 | Infospica | 16 | [Infospica.md](Company-Wise-Questions/Infospica.md) |
 | 11 | GlobalPayments | 15 | [GlobalPayments.md](Company-Wise-Questions/GlobalPayments.md) |
@@ -105,28 +105,29 @@ InterviewQuestions/
 | 21 | Spryc | 10 | [Spryc.md](Company-Wise-Questions/Spryc.md) |
 | 22 | CCTech | 9 | [CCTech.md](Company-Wise-Questions/CCTech.md) |
 | 23 | Persistent | 9 | [Persistent.md](Company-Wise-Questions/Persistent.md) |
-| 24 | Securonix | 9 | [Securonix.md](Company-Wise-Questions/Securonix.md) |
-| 25 | K8S Scenario-Based | 4 | [K8S_SBQ.md](Company-Wise-Questions/K8S_SBQ.md) |
+| 24 | Scienaptic-AI | 9 | [Scienaptic-AI.md](Company-Wise-Questions/Scienaptic-AI.md) |
+| 25 | Securonix | 9 | [Securonix.md](Company-Wise-Questions/Securonix.md) |
+| 26 | K8S Scenario-Based | 4 | [K8S_SBQ.md](Company-Wise-Questions/K8S_SBQ.md) |
 
 ---
 
 ## Top Topics by Frequency
 
 ```
-Kubernetes        ████████████████████████████████████  131
-AWS               █████████████████████████             91
+Kubernetes        ████████████████████████████████████  141
+AWS               █████████████████████████████         94
 SRE/DevOps        █████████████████                     61
-Linux/Scripting   █████████████                         49
-CI/CD Pipeline    ████████████                          44
+Linux/Scripting   ██████████████                        52
+CI/CD Pipeline    ██████████████                        46
 Monitoring        ████████████                          43
-Terraform         ███████████                           41
+Terraform         ███████████████                       47
 Networking        ██████████                            38
 Security          █████████                             34
-Docker            ████████                              28
+Docker            ███████████                           32
 Microservices     ████████                              28
-Git               ███                                   12
+Git               █████                                 15
 Ansible           █                                      3
-Helm              █                                      1
+Helm              ██                                     2
 ```
 
 ---

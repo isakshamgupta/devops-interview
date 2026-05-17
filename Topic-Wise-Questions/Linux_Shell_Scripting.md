@@ -81,5 +81,8 @@
 
 - Can you give me command to find modified files in last 24 hrs and compress them into a single file? Give single command *(Fiserv)*
 - If I want to replace a string in file with another string, which command to use? *(Fiserv)*
+- Which command is used to substitute a string or pattern within a particular directory in Linux? *(Custom)*
 - Using above command if I want alternate occurrences of string to be replaced in a file, how to do that? *(Fiserv)*
+- How do you filter or search for a specific word/pattern in Linux using grep or sed? *(Custom)*
 - What is the difference between $* and $@ in shell? *(Fiserv)*
+- Write a Python script to search for a specific file within a folder or directory. *(Custom)*

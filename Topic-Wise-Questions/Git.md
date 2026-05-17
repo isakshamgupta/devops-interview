@@ -15,7 +15,7 @@
 ## Merging & Rebasing
 
 - What are different merging strategies? *(Apptware)*
-- What is the difference between rebase and merge in GIT? *(InfracloudTech)*
+- What is the difference between git merge and git rebase? *(Custom)*
 - Have you ever had merge conflicts? How did you resolve them? *(Apptware)*
 - I have feature and main branch. In feature I pushed 4 changes and I want to merge one of that change into main. How can we do that? *(Apptware)*
 
@@ -24,5 +24,8 @@
 ## Git Commands & Operations
 
 - What git commands do you use on daily basis as a DevOps Engineer? *(Equifax)*
+- What is meant by staging in Git? *(Custom)*
+- What is Git stash used for? *(Custom)*
+- What is Git commit used for? Are all git commits the same if we do git rebase? *(Custom)*
 - How to rollback changes made in any branch? *(Equifax)*
 - If you have reset your main branch and lost all the commits, how will you recover that? *(Equifax)*

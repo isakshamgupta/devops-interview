@@ -46,8 +46,10 @@
 ## Variables & Configuration
 
 - In which file do you mention values of variables in terraform? *(Helpshift, InfracloudTech)*
+- What is the purpose of the depends_on meta-argument in Terraform? *(Custom)*
 - If you want to submit something through your CI pipeline, then how to maintain TFVARS file as the values shouldnt be hardcoded each time? *(Helpshift, InfracloudTech)*
 - Can you explain local blocks and data sources blocks in terraform? *(Helpshift)*
+- How do you view or extract outputs in Terraform after a deployment? *(Custom)*
 - Can you tell me basic difference between count and for_Each in terraform? *(Helpshift)*
 - How are you handling sensitive data in terraform or AWS? *(Fiserv)*
 
@@ -56,6 +58,7 @@
 ## Modules & Structure
 
 - What are modules in terraform? *(Helpshift, InfracloudTech)*
+- What is the use of terraform taint, and when should it be applied? *(Custom)*
 - How do you structure terraform for larger environment? How does your directory structure look like in a complex environment wrt modules, workspaces, statefiles? *(Helpshift)*
 - If we define modules at root level and reference them, what do you think will be the problem? *(Helpshift)*
 - If I have one project folder and I want to use that same codebase on multiple environments like dev, UAT, prod, how can we do that in terraform? *(Allvue)*

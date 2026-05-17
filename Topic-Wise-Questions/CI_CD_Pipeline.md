@@ -8,6 +8,7 @@
 - What is the difference between Scripted and declarative pipeline? *(HSBC)*
 - Write jenkins pipeline stages *(Infospica)*
 - What are stages in your Jenkins pipeline? *(LTIMindtree)*
+- How do you build parallel stages in a Jenkins pipeline? *(Custom)*
 - Write the base steps used in CICD pipeline and state plugins used *(RakutenSymphony)*
 - In jenkins, what are different stages are you using inside pipeline? *(Fiserv)*
 - How is structure of CICD pipelines at your organization? *(Spryc)*
@@ -64,6 +65,7 @@
 ## Deployment Strategies
 
 - What is blue green and canary deployments? Which has downtime? *(Allvue)*
+- Explain the concept of Blue-Green Deployment. *(Custom)*
 - When to use blue green and when to use canary deployments? *(Entain)*
 - How do you justify the cost of maintaining 2 environments in blue green deployments? What factors are considered while applying this strategy? *(Entain)*
 - How to deploy app on production without downtime? *(Infospica)*

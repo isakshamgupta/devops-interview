@@ -8,6 +8,7 @@
 - How do you differentiate public and private subnet? *(AlignedAutomation)*
 - How will you define subnet whether its public or private? State difference *(LTIMindtree)*
 - What is difference between public and private subnet? *(PivotChain)*
+- What are the primary differences between AWS EC2 and AWS Fargate? *(Custom)*
 - What is basic difference between Security group and NACL? *(AlignedAutomation)*
 - SG and NACL - which is stateful and which is stateless? *(AlignedAutomation)*
 - Explain difference between SG and NACL *(Allvue)*
@@ -28,6 +29,7 @@
 
 - Difference between IAM role and IAM user. Can we attach IAM role to IAM user? *(GlobalPayments)*
 - What is instance profile in AWS? *(GlobalPayments)*
+- What is the use of a Rotation Policy in AWS KMS (Key Management Service)? *(Custom)*
 - Can you explain Role based access control with respect to IAM? *(Spryc)*
 - How many types of authentication does AWS have? *(MindBowser)*
 - What is OIDC? *(MindBowser)*
@@ -60,6 +62,7 @@
 
 - Can you explain autoscaling? What are the types? *(Allvue)*
 - What is autoscaling? *(GlobalPayments)*
+- What are the main parameters or attributes used when configuring Auto Scaling on AWS? *(Custom)*
 - What is use of health check in autoscaling? *(GlobalPayments)*
 - How to auto scale app/EC2 in AWS? *(CCTech)*
 - ASG is not launching instances. How to fix this issue? *(T-Systems)*

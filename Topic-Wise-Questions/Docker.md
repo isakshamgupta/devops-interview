@@ -12,6 +12,8 @@
 - What is the difference between COPY and ADD in dockerfile? *(InfracloudTech, RakutenSymphony, PivotChain)*
 - Can the ENTRYPOINT in dockerfile be overridden? *(InfracloudTech)*
 - What is ENTRYPOINT in docker? *(PivotChain)*
+- What is the purpose of the EXPOSE command in a Dockerfile? *(Custom)*
+- If you need to run multiple versions of Python or different base image versions, how do you handle that in a Dockerfile build? *(Custom)*
 
 ---
 
@@ -53,6 +55,8 @@
 
 - Write a simple docker compose file for multiple services *(Infospica)*
 - Why we use docker compose? *(Spryc)*
+- What is Docker Compose, and why is it used? *(Custom)*
+- How can you run multiple containers on the same port in Docker? (Note: Usually involves a Load Balancer or Reverse Proxy). *(Custom)*
 
 ---
 

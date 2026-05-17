@@ -15,6 +15,9 @@
 - How to manage K8S DNS? *(AlignedAutomation)*
 - DNS resolution is failing inside Kubernetes pods — how do you troubleshoot? *(SRE/Questions)*
 - What is configMap? *(RakutenSymphony)*
+- What is the purpose of a ServicePort in Kubernetes? *(Custom)*
+- What is a Deployment in K8s, and how does it manage pods? *(Custom)*
+- How do you separate environments (like Dev, Staging, Prod) within Kubernetes or across clusters? *(Custom)*
 - What is init container? *(LTIMindtree)*
 - What is daemon sets? *(LTIMindtree)*
 - What is the key difference between deployments and stateful sets? *(LTIMindtree)*
