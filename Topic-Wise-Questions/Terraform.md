@@ -5,6 +5,7 @@
 ## Basics & Workflow
 
 - Explain terraform workflow *(Allvue)*
+- What is Terragrunt, and what problems does it solve that Terraform alone does not address effectively? *(Custom)*
 - Whats the difference between Terraform and Cloud formation? *(Allvue)*
 - Explain flow of resource creation in terraform *(InfracloudTech)*
 - What does terraform init do? *(HSBC)*
@@ -24,6 +25,7 @@
 - Can you explain using terraform workspaces vs using separate state files? *(Securonix)*
 - You did a terraform apply and state file is updated. Now if in AWS UI you delete a resource. Next time when we run terraform code, what will happen? *(Allvue)*
 - If I have created resources on AWS using terraform and someone modified them manually in UI. How to tackle this? *(Securonix)*
+- If the Terraform state file is accidentally deleted, how would you recover or rebuild the state? *(Custom)*
 - How to handle drifts in terraform files? *(Apptware)*
 - Your Terraform apply fails due to drift — how do you resolve it? *(SRE/Questions)*
 
@@ -35,6 +37,7 @@
 - As you have automated creating configurations using terraform, how to manage state locking and prevent conflict when multiple people are working on same terraform project? *(Securonix)*
 - If you run terraform script and someone is also running same script at same time with some changes, how will terraform behave? *(HSBC)*
 - What are the steps to remove or disable lock? What set of commands does terraform have for the same? *(Helpshift)*
+- What is state locking in Terraform? Why is it important, and how do you implement it? *(Custom)*
 - We are working in a team and multiple members make some changes in same terraform scripts. How can we avoid overriding the backend files? *(Apptware)*
 - When you are trying to spinup 10 EC2 machines using terraform, 5 gets created and at the time of creation of 6th the node goes down on EKS. State file is stored at S3. How would you recover from this error of stale state? *(Entain)*
 

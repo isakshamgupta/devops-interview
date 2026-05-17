@@ -7,6 +7,7 @@
 - Please explain the K8S Architecture *(InfracloudTech)*
 - Explain the Kubernetes Architecture *(LTIMindtree)*
 - What is CNI? *(HCL)*
+- What are Kubernetes CNI (Container Network Interface) plugins? Can you explain their role and give some examples? *(Custom)*
 - What are the different CNI plugins available in K8S? *(InfracloudTech)*
 - What are different CRIs (Container Runtime Interfaces)? *(InfracloudTech)*
 - What is the role of kubeproxy? *(InfracloudTech)*
@@ -46,6 +47,9 @@
 - If nodes are scattered in 2 different namespaces, how the pods in the nodes connect with each other? *(RakutenSymphony)*
 - Lets say your backend service is running in NS1 and DB running in NS2. Now NS1 service has to get connection of DB all the time. Now consider 2 scenarios where DB is using node port and then cluster IP, DB port gets down and gets up. What will be the impact in both cases? What is the preferred way to get seamless connection in case our pod goes down? *(RakutenSymphony)*
 - A network policy is blocking traffic between services in different namespaces. How would you design and debug the policy to allow only specific communication paths? *(K8S_SBQ)*
+- You have two applications running in separate pods and a shared database pod. Both applications should be able to communicate with the database, but must not communicate with each other. How would you design this using Kubernetes networking concepts? *(Custom)*
+- An end user is trying to access an application deployed on Kubernetes via a LoadBalancer service, but receives a 503 error. Network policies are also configured. How would you troubleshoot this issue end-to-end? *(Custom)*
+- How would you restrict access to your Kubernetes-hosted application based on geographic location (e.g., block specific countries)? *(Custom)*
 - I have deployed microservice on K8S cluster and I dont want that cluster to be accessed outside environment. How to configure that? *(AlignedAutomation)*
 - Where can we check if inter pod communication is allowed? *(AlignedAutomation)*
 - Suppose you have deployed application on EKS cluster and for some reason your pods are not able to communicate with each other. What could be the reason? *(AlignedAutomation)*
@@ -81,6 +85,7 @@
 - A stateful set in Kubernetes is losing data after pod restarts — what's your approach? *(SRE/Questions)*
 - You have a StatefulSet deployed with persistent volumes, and one of the pods is not recreating properly after deletion. What could be the reasons, and how do you fix it without data loss? *(K8S_SBQ)*
 - How are you taking backups of K8S PV? *(LTIMindtree)*
+- What is emptyDir in Kubernetes? What are its uses? *(Custom)*
 - If we delete the pod, the copied content bound to it will be deleted or not? *(LTIMindtree)*
 
 ---
@@ -88,6 +93,8 @@
 ## Cluster Management & Troubleshooting
 
 - Your pod keeps getting stuck in CrashLoopBackOff, but logs show no errors. How would you approach debugging and resolution? *(K8S_SBQ)*
+- A pod is in OOMKilled (Out of Memory) state. How would you troubleshoot and resolve this issue? *(Custom)*
+- **Follow-up:** If there is no resource shortage at the node level, what additional checks would you perform to identify and fix the issue? *(Custom)*
 - If pods are stuck in crashed loop backoff, how to troubleshoot? *(Securonix)*
 - If you have deployed app on K8S and pod is not coming up, how will you debug the issue? *(HSBC)*
 - How do you debug K8S pods with different commands? *(Fiserv)*
